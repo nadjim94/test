@@ -15,7 +15,7 @@
 #include <sys/ioctl.h>
 #include <linux/cdrom.h>
 
-
+ int test = 0;
 int main(int argc, char * argv[])
 {
 	int fd;
